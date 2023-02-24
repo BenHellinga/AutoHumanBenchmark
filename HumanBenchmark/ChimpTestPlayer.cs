@@ -38,7 +38,7 @@ namespace HumanBenchmark
         private const bool MAKE_NEW_SAVES = true;
 
         // file path and file name
-        private const String FILEPATH = "../../assets/chimptest";
+        private const String FILEPATH = "../../assets/chimptest/";
         private const String FILENAME = "chimptest";
         private const String FILEEND = ".png";
 
@@ -66,7 +66,7 @@ namespace HumanBenchmark
         //
         // if it's too fast it messes up. maximum speed i've found is 10/30, which is what it is set too when FAST = true
         // otherwise, it's whatever you wanna set it too
-        private const bool FAST = true;
+        private const bool FAST = false;
         private const int CLICK_DELAY = FAST ? 10 : 100; // 10
         private const int MENU_DELAY = FAST ? 30 : 1000; // 20
 
